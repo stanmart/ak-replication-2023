@@ -6,8 +6,8 @@ rule prepare_data:
         data = "data/raw/QOB.txt"
     output:
         data = "data/clean/census_data.csv"
-    shell:
-        "python src/data/prepare_data.py"
+    script:
+        "src/data/prepare_data.py"
 
 
 rule extract_data:
