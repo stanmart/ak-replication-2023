@@ -1,6 +1,7 @@
 # Project-specific stuff
 
 /data/
+/.snakemake/
 
 
 # Byte-compiled / optimized / DLL files
