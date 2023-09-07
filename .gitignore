@@ -2,6 +2,7 @@
 
 /data/
 /.snakemake/
+/playground/
 
 
 # Byte-compiled / optimized / DLL files

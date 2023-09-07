@@ -1,5 +1,15 @@
 import platform
 
+
+rule prepare_data:
+    input:
+        data = "data/raw/QOB.txt"
+    output:
+        data = "data/clean/census_data.csv"
+    shell:
+        "python src/data/prepare_data.py"
+
+
 rule extract_data:
     input:
         rar = "data/raw/QOB.rar"
